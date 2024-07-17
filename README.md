@@ -20,3 +20,20 @@ window.addEventListener("load", function () {
     });
 });
 ```
+
+## 1.2 두줄 이상 말줄임
+
+```css
+선택자 {
+  line-height: 1.5;
+  margin: 0;
+  margin-bottom: 0.5rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  line-height: 1.5;
+  max-height: calc(1.5em * 3);
+}
+```
